@@ -17,7 +17,7 @@ export default function Home() {
       <div className="app-container">
         <div className="bg-gray-200 dark:bg-slate-800 dark:text-white min-h-screen">
           <div className="flex w-full flex-1 flex-col items-center justify-center gap-5 px-10 pt-2 text-center">
-            <h1 className="text-2xl md:text-4xl font-bold">SpaceX Launches</h1>
+            <h1 data-testid="cypress-title" className="text-2xl md:text-4xl font-bold">SpaceX Launches</h1>
 
             <div className="flex">
               <input
